@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Webville Cola</title>
+    <meta charset="utf-8">
+    <script>
+
+        function addN(n) {
+            return function(x) {
+                return n + x;
+            };
+
+        }
+
+        var add1 = addN(1);
+        console.log(add1(1));
+        var add2 = addN(1);
+        console.log(add2(2));
+    </script>
+</head>
+<body> </body>
+</html>
+
